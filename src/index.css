@@ -2,7 +2,8 @@
   --color-background: #09090b;
   --color-text: #f5f5f5;
   --color-accent: #f7bd41;
-  --font-body: Inter, 'Segoe UI', Arial, sans-serif;
+  --color-surface: #29272a;
+  --font-body: 'Albert Sans', 'Segoe UI', Arial, sans-serif;
 
   font-family: var(--font-body);
   color: var(--color-text);
@@ -49,6 +50,28 @@ button, input, textarea {
 img {
   display: block;
   max-width: 100%;
+}
+
+.ui-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 ::selection {

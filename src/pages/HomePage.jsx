@@ -1,4 +1,5 @@
 import portfolio from '../data/portfolio.json';
+import Icon from '../components/Icon.jsx';
 import './HomePage.css';
 
 export default function HomePage() {
@@ -18,19 +19,21 @@ export default function HomePage() {
 
           <dl className="home-page__contacts">
             <div>
-              <dt>Email</dt>
+              <dt className="sr-only">Email</dt>
               <dd>
+                <Icon name="email" />
                 <a href={`mailto:${profile.email}`}>{profile.email}</a>
               </dd>
             </div>
             <div>
-              <dt>Phone</dt>
-              <dd><a href={telephoneUrl}>{profile.phone}</a></dd>
+              <dt className="sr-only">Phone</dt>
+              <dd><Icon name="phone" /><a href={telephoneUrl}>{profile.phone}</a></dd>
             </div>
             {linkedIn && (
               <div>
-                <dt>{linkedIn.label}</dt>
+                <dt className="sr-only">{linkedIn.label}</dt>
                 <dd>
+                  <Icon name="linkedin" />
                   <a href={linkedIn.url} target="_blank" rel="noreferrer">
                     {linkedIn.url.replace(/^https?:\/\/(www\.)?/, '')}
                   </a>
@@ -38,8 +41,8 @@ export default function HomePage() {
               </div>
             )}
             <div>
-              <dt>Location</dt>
-              <dd>{profile.location}</dd>
+              <dt className="sr-only">Location</dt>
+              <dd><Icon name="location" /><span>{profile.location}</span></dd>
             </div>
           </dl>
         </section>

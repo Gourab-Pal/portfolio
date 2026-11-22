@@ -1,5 +1,6 @@
 import portfolio from '../data/portfolio.json';
 import PortfolioImage from './PortfolioImage.jsx';
+import Icon from './Icon.jsx';
 import './SiteChrome.css';
 
 export default function SiteChrome({ isHome }) {
@@ -20,7 +21,10 @@ export default function SiteChrome({ isHome }) {
       <header className="site-header">
         <div>
           {isHome && profile.availability.visible && (
-            <p className="site-header__availability">{profile.availability.text}</p>
+            <p className="site-header__availability">
+              <Icon name="status" />
+              {profile.availability.text}
+            </p>
           )}
         </div>
         {profile.resume.url && (

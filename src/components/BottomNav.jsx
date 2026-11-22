@@ -1,5 +1,14 @@
 import portfolio from '../data/portfolio.json';
+import Icon from './Icon.jsx';
 import './BottomNav.css';
+
+const NAVIGATION_ICONS = {
+  '/': 'home',
+  '/summary': 'summary',
+  '/experience': 'experience',
+  '/skills': 'skills',
+  '/links': 'links',
+};
 
 export default function BottomNav({ currentPath }) {
   return (
@@ -10,7 +19,8 @@ export default function BottomNav({ currentPath }) {
           href={item.path}
           aria-current={currentPath === item.path ? 'page' : undefined}
         >
-          {item.label}
+          <Icon name={NAVIGATION_ICONS[item.path]} />
+          <span>{item.label}</span>
         </a>
       ))}
     </nav>

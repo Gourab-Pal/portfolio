@@ -30,7 +30,8 @@
   align-items: center;
   gap: 16px;
 }
-.site-header__availability { font-size: 15px; font-weight: 600; }
+.site-header__availability { display: flex; align-items: center; gap: 10px; font-size: 17px; font-weight: 600; }
+.site-header__availability .ui-icon { color: var(--color-accent); font-size: 8px; }
 .site-header__resume {
   min-width: 160px;
   justify-content: center;
@@ -48,6 +49,8 @@
 @media (max-width: 640px) {
   .site-header { width: calc(100% - 40px); top: 20px; }
   .site-header__resume { padding-inline: 20px; }
+  .site-header__availability { font-size: 14px; gap: 8px; }
+  .site-header__resume { min-width: 120px; }
   .site-background img { opacity: 0.3; object-position: var(--hero-mobile-position, center); }
   .site-background--quiet img { opacity: 0.2; }
 }
