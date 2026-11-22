@@ -1,0 +1,388 @@
+{
+  "site": {
+    "title": "Gourab Pal | SDET Portfolio",
+    "description": "Test automation and quality engineering across web, mobile, and APIs.",
+    "navigation": [
+      {
+        "label": "Home",
+        "path": "/"
+      },
+      {
+        "label": "Summary",
+        "path": "/summary"
+      },
+      {
+        "label": "Experience",
+        "path": "/experience"
+      },
+      {
+        "label": "Skills",
+        "path": "/skills"
+      },
+      {
+        "label": "Links",
+        "path": "/links"
+      }
+    ]
+  },
+  "profile": {
+    "name": "Gourab Pal",
+    "headline": "SDET / QA ENGINEER",
+    "currentCompany": "Swiggy",
+    "location": "Bengaluru, India",
+    "email": "gourab.pal.gpal@gmail.com",
+    "phone": "+91 7076444783",
+    "availability": {
+      "visible": true,
+      "text": "Open to work"
+    },
+    "heroImage": {
+      "src": "/images/profile/hero.jpg",
+      "alt": "Portfolio background",
+      "position": "center center"
+    },
+    "resume": {
+      "label": "Download CV",
+      "url": "/documents/gourab-pal-resume.pdf"
+    }
+  },
+  "summary": {
+    "title": "Summary",
+    "paragraphs": [
+      "I am an SDET / QA Automation Engineer working across web, mobile, and API testing. My toolkit includes Java, Selenium, TestNG, Appium, and REST Assured.",
+      "I focus on maintainable automation, reliable regression coverage, and useful failure diagnostics. I collaborate with developers and product teams to translate requirements into practical test strategies.",
+      "My background in research and data science also informs how I approach data validation, investigation, and problem solving."
+    ]
+  },
+  "experiences": [
+    {
+      "id": "swiggy",
+      "company": "Swiggy",
+      "role": "SDET-I",
+      "type": "employment",
+      "startDate": "2026-02",
+      "endDate": null,
+      "description": [
+        "Working on the Vendor platform across web, mobile (Android/iOS), and backend systems.",
+        "Collaborating with Ads, Vendor, Finance, and Data Science teams on monetisation features, billing, reporting, and partner payouts."
+      ],
+      "highlights": [
+        "Validate campaign creation, ad serving, billing, and reporting workflows.",
+        "Design coverage across Selenium, Appium, TestNG, REST Assured, and GraphQL."
+      ],
+      "tools": [
+        "Java",
+        "Selenium",
+        "Appium",
+        "TestNG",
+        "REST Assured",
+        "GraphQL"
+      ]
+    },
+    {
+      "id": "outdoo-ai",
+      "company": "Outdoo AI",
+      "role": "QA Engineer",
+      "type": "employment",
+      "startDate": "2025-07",
+      "endDate": "2026-01",
+      "description": [
+        "Quality engineering and automation for web and mobile applications."
+      ],
+      "highlights": [
+        "Build and maintain automation frameworks using Java, Selenium, Appium, and TestNG.",
+        "Develop data-driven UI and API tests.",
+        "Support cross-browser and cross-device validation with Dockerized Selenium Grid."
+      ],
+      "tools": [
+        "Java",
+        "Selenium",
+        "Appium",
+        "TestNG",
+        "Docker"
+      ]
+    },
+    {
+      "id": "acacia-analytics",
+      "company": "Acacia Analytics",
+      "role": "Data Scientist",
+      "type": "employment",
+      "startDate": "2024-12",
+      "endDate": "2025-06",
+      "description": [
+        "Supported analytical workflows through data preparation, validation, and model evaluation."
+      ],
+      "highlights": [
+        "Assist with data collection, cleaning, and preprocessing.",
+        "Support exploratory analysis, feature engineering, and model evaluation.",
+        "Validate data consistency across sources and API-driven workflows."
+      ],
+      "tools": [
+        "Python",
+        "SQL",
+        "Data validation",
+        "API testing"
+      ]
+    },
+    {
+      "id": "crio",
+      "company": "Crio.do",
+      "role": "Quality Assurance SDET Trainee",
+      "type": "training",
+      "startDate": "2024-06",
+      "endDate": "2025-04",
+      "description": [
+        "Practical training in test automation, framework design, and end-to-end web application testing."
+      ],
+      "highlights": [
+        "Build automation using Selenium, TestNG, Page Object Model, and Gradle.",
+        "Translate application workflows into test scenarios.",
+        "Create reusable test components and review automation code."
+      ],
+      "tools": [
+        "Java",
+        "Selenium",
+        "TestNG",
+        "Page Object Model",
+        "Gradle"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "cpc-ads-toing",
+      "experienceId": "swiggy",
+      "title": "CPC Ads Launch on Toing",
+      "subtitle": "Campaign and billing validation",
+      "isDraft": true,
+      "cover": {
+        "src": "/images/projects/toing-cover.jpg",
+        "alt": "Toing CPC Ads project preview"
+      },
+      "overview": "Draft case study describing testing across campaign creation, ad serving, billing, and reporting.",
+      "responsibilities": [
+        "Validate end-to-end campaign workflows.",
+        "Check billing and reporting behaviour across business units."
+      ],
+      "outcomes": [],
+      "tools": [
+        "Java",
+        "TestNG",
+        "REST Assured",
+        "Selenium",
+        "Appium"
+      ],
+      "gallery": [],
+      "links": []
+    },
+    {
+      "id": "packaging-change",
+      "experienceId": "swiggy",
+      "title": "% OV based packaging change",
+      "subtitle": "Pricing and packaging validation",
+      "isDraft": true,
+      "cover": {
+        "src": "/images/projects/packaging-cover.jpg",
+        "alt": "Packaging change project preview"
+      },
+      "overview": "Draft project description. Replace this with the actual scope and your contribution.",
+      "responsibilities": [],
+      "outcomes": [],
+      "tools": [],
+      "gallery": [],
+      "links": []
+    },
+    {
+      "id": "revenue-intelligence",
+      "experienceId": "outdoo-ai",
+      "title": "Revenue Intelligence",
+      "subtitle": "AI-powered conversation intelligence",
+      "isDraft": true,
+      "cover": {
+        "src": "/images/projects/revenue-intelligence-cover.jpg",
+        "alt": "Revenue Intelligence project preview"
+      },
+      "overview": "Draft case study for quality engineering on a conversation intelligence platform.",
+      "responsibilities": [
+        "Add the workflows you tested.",
+        "Describe your automation contribution."
+      ],
+      "outcomes": [],
+      "tools": [
+        "Java",
+        "Selenium",
+        "TestNG"
+      ],
+      "gallery": [],
+      "links": []
+    },
+    {
+      "id": "ai-sales-roleplay",
+      "experienceId": "outdoo-ai",
+      "title": "AI Sales Roleplay",
+      "subtitle": "Coaching and AI sales roleplay",
+      "isDraft": true,
+      "cover": {
+        "src": "/images/projects/ai-sales-roleplay-cover.jpg",
+        "alt": "AI Sales Roleplay project preview"
+      },
+      "overview": "Draft project description. Add the product workflows and your testing approach.",
+      "responsibilities": [],
+      "outcomes": [],
+      "tools": [],
+      "gallery": [],
+      "links": []
+    },
+    {
+      "id": "qkart",
+      "experienceId": "crio",
+      "title": "QKart",
+      "subtitle": "E-commerce test automation",
+      "isDraft": true,
+      "cover": {
+        "src": "/images/projects/qkart-cover.jpg",
+        "alt": "QKart project preview"
+      },
+      "overview": "Draft case study for automation of core e-commerce user journeys.",
+      "responsibilities": [
+        "Describe the user journeys covered.",
+        "Explain your reusable framework components."
+      ],
+      "outcomes": [],
+      "tools": [
+        "Java",
+        "Selenium",
+        "TestNG",
+        "Gradle"
+      ],
+      "gallery": [],
+      "links": []
+    },
+    {
+      "id": "qtrip",
+      "experienceId": "crio",
+      "title": "QTrip",
+      "subtitle": "Tours and travel platform",
+      "isDraft": true,
+      "cover": {
+        "src": "/images/projects/qtrip-cover.jpg",
+        "alt": "QTrip project preview"
+      },
+      "overview": "Draft case study for testing a tours and travel application.",
+      "responsibilities": [],
+      "outcomes": [],
+      "tools": [
+        "Java",
+        "Selenium",
+        "TestNG"
+      ],
+      "gallery": [],
+      "links": []
+    },
+    {
+      "id": "vehicle-valuation",
+      "experienceId": "acacia-analytics",
+      "title": "Vehicle Valuation",
+      "subtitle": "Vehicle valuation in Kenya",
+      "isDraft": true,
+      "cover": {
+        "src": "/images/projects/vehicle-valuation-cover.jpg",
+        "alt": "Vehicle valuation project preview"
+      },
+      "overview": "Draft case study. Add the data workflow, validation approach, and your contribution.",
+      "responsibilities": [],
+      "outcomes": [],
+      "tools": [
+        "Python",
+        "SQL"
+      ],
+      "gallery": [],
+      "links": []
+    }
+  ],
+  "skillGroups": [
+    {
+      "id": "automation",
+      "title": "Test automation",
+      "items": [
+        "Selenium",
+        "Appium",
+        "TestNG",
+        "REST Assured",
+        "Page Object Model"
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "Languages and tools",
+      "items": [
+        "Java",
+        "Python",
+        "SQL",
+        "Git",
+        "Docker",
+        "Gradle",
+        "Grafana"
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Quality engineering",
+      "items": [
+        "API testing",
+        "Cross-browser testing",
+        "Mobile testing",
+        "Test planning",
+        "SDLC / STLC",
+        "Regression testing"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "crio-certificate",
+      "qualification": "QA Engineer Certificate",
+      "institution": "Crio.do, Bengaluru",
+      "period": "2025"
+    },
+    {
+      "id": "rri",
+      "qualification": "Doctor of Philosophy (Ph.D.)",
+      "institution": "Raman Research Institute, Bengaluru",
+      "period": "2020–2024"
+    },
+    {
+      "id": "iit-madras",
+      "qualification": "Master of Science (M.Sc.)",
+      "institution": "IIT Madras",
+      "period": "2018–2020"
+    }
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Bengali"
+  ],
+  "links": [
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gourab-pal-qa/"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/gourab-pal"
+    },
+    {
+      "id": "leetcode",
+      "label": "LeetCode",
+      "url": "https://leetcode.com/u/gourabpal/"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/gourab.pal.35380"
+    }
+  ]
+}
