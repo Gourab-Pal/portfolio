@@ -12,15 +12,6 @@ export default function HomePage() {
       <meta name="description" content={site.description} />
 
       <main className="home-page">
-        <header className="home-page__header">
-          {profile.availability.visible && (
-            <p className="home-page__availability">
-              <span className="home-page__status-dot" aria-hidden="true" />
-              {profile.availability.text}
-            </p>
-          )}
-        </header>
-
         <section className="home-page__intro" aria-labelledby="profile-name">
           <p className="home-page__headline">{profile.headline}</p>
           <h1 id="profile-name">{profile.name}</h1>

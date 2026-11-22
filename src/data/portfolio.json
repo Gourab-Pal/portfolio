@@ -37,13 +37,14 @@
       "text": "Open to work"
     },
     "heroImage": {
-      "src": "/images/profile/hero.jpg",
+      "src": "https://framerusercontent.com/images/t92lHZrM9DJMzOoSFfvQ1l1z4E.png?width=1536&height=1024",
       "alt": "Portfolio background",
-      "position": "center center"
+      "position": "center center",
+      "mobilePosition": "75% center"
     },
     "resume": {
-      "label": "Download CV",
-      "url": "/documents/gourab-pal-resume.pdf"
+      "label": "View CV",
+      "url": "https://drive.google.com/file/d/1Ch8xWLbZYN2b-4AxRjfkXqzFZqvWboyP/view?usp=sharing"
     }
   },
   "summary": {
@@ -156,7 +157,7 @@
       "subtitle": "Campaign and billing validation",
       "isDraft": true,
       "cover": {
-        "src": "/images/projects/toing-cover.jpg",
+        "src": "https://framerusercontent.com/images/5W7X1UoIuiF7mUJ7raVIrPd0.png",
         "alt": "Toing CPC Ads project preview"
       },
       "overview": "Draft case study describing testing across campaign creation, ad serving, billing, and reporting.",
@@ -182,7 +183,7 @@
       "subtitle": "Pricing and packaging validation",
       "isDraft": true,
       "cover": {
-        "src": "/images/projects/packaging-cover.jpg",
+        "src": "https://framerusercontent.com/images/WVLjdjc0JlhRXgWBxx9mZ39CfTg.png",
         "alt": "Packaging change project preview"
       },
       "overview": "Draft project description. Replace this with the actual scope and your contribution.",
@@ -199,7 +200,7 @@
       "subtitle": "AI-powered conversation intelligence",
       "isDraft": true,
       "cover": {
-        "src": "/images/projects/revenue-intelligence-cover.jpg",
+        "src": "https://framerusercontent.com/images/WLgSBUQayt7xbnCa8v1gmvKflSk.png",
         "alt": "Revenue Intelligence project preview"
       },
       "overview": "Draft case study for quality engineering on a conversation intelligence platform.",
@@ -223,7 +224,7 @@
       "subtitle": "Coaching and AI sales roleplay",
       "isDraft": true,
       "cover": {
-        "src": "/images/projects/ai-sales-roleplay-cover.jpg",
+        "src": "https://framerusercontent.com/images/O7x5BdO2qCQXS0l7HIlHnhvzw98.png",
         "alt": "AI Sales Roleplay project preview"
       },
       "overview": "Draft project description. Add the product workflows and your testing approach.",
@@ -240,7 +241,7 @@
       "subtitle": "E-commerce test automation",
       "isDraft": true,
       "cover": {
-        "src": "/images/projects/qkart-cover.jpg",
+        "src": "https://framerusercontent.com/images/6ANzXwRa4ar0m7Nch4G9sErLO9A.png",
         "alt": "QKart project preview"
       },
       "overview": "Draft case study for automation of core e-commerce user journeys.",
@@ -265,7 +266,7 @@
       "subtitle": "Tours and travel platform",
       "isDraft": true,
       "cover": {
-        "src": "/images/projects/qtrip-cover.jpg",
+        "src": "https://framerusercontent.com/images/zDdc0P4g3tzrek0JUVeX059PQA.png",
         "alt": "QTrip project preview"
       },
       "overview": "Draft case study for testing a tours and travel application.",
@@ -286,7 +287,7 @@
       "subtitle": "Vehicle valuation in Kenya",
       "isDraft": true,
       "cover": {
-        "src": "/images/projects/vehicle-valuation-cover.jpg",
+        "src": "https://framerusercontent.com/images/PN4Clsz9S3gq8vIhOvRav84Z89c.png",
         "alt": "Vehicle valuation project preview"
       },
       "overview": "Draft case study. Add the data workflow, validation approach, and your contribution.",
