@@ -1,0 +1,79 @@
+.home-page {
+  width: min(1100px, calc(100% - 48px));
+  min-height: 100svh;
+  margin-inline: auto;
+  padding-block: 32px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page__header {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.home-page__availability {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.home-page__status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.home-page__intro {
+  width: min(100%, 700px);
+  margin-block: auto;
+  padding-block: 64px;
+}
+
+.home-page__headline {
+  margin-bottom: 12px;
+  color: var(--color-accent);
+  font-size: clamp(18px, 2.2vw, 24px);
+  font-weight: 600;
+}
+
+.home-page h1 {
+  margin-bottom: 28px;
+  font-size: clamp(44px, 6vw, 72px);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+}
+
+.home-page__contacts {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 24px 32px;
+}
+
+.home-page__contacts dt {
+  margin-bottom: 4px;
+  color: var(--color-accent);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.home-page__contacts dd {
+  margin: 0;
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+
+.home-page__contacts a:hover {
+  color: var(--color-accent);
+}
+
+@media (max-width: 640px) {
+  .home-page__contacts {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
